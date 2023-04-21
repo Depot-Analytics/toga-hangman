@@ -70,7 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Hangman Welcome](https://github.com/Depot-Analytics/toga-hangman/blob/main/welcome%20screen.png)
 
 I learned how to use Toga to make a simple desktop, and while creating the app, I felt there was not a lot of documentation on Toga available online. I wanted to create a simple project that shows how to use Toga and some of its common quirks.
 
@@ -89,32 +89,27 @@ This application is primarily used as a tutorial first and application second, b
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Toga](https://toga.readthedocs.io/en/latest/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started with Development
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+For the very basics, the [Toga/Beeware tutorial](https://docs.beeware.org/en/latest/tutorial/tutorial-0.html) is very good at getting the environment set up. I would recommend following this tutorial for more information, but I will provide the commands below. 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Set up your virtual environment. (This is activated once you see venv before your code)
   ```sh
-  npm install npm@latest -g
+  py -m venv venv
+  venv\Scripts\activate.bat
   ```
+* Install Toga & Briefcase
+  ```
+  python -m pip install briefcase
+  ```
+  
 
 ### Installation
 
