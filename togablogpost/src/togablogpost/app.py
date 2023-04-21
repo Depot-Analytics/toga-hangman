@@ -26,13 +26,12 @@ class Hangman(toga.App):
     def startup(self):
         self.secret_word = ""
     
-        print("starting hangman")
         main_box = toga.Box(style=Pack(direction=COLUMN))
         main_box.add(toga.Label("Welcome to Hangman!", style=Hangman.title_style ))
         main_box.add(toga.Button("Play Hangman" , style=Hangman.button_style, on_press=self.start_new_game))
         main_box.add(toga.Button("Start Game with Own Word", style=Hangman.button_style, on_press=self.enter_own_word))
 
-        self.main_window = toga.MainWindow(title="Hangman", size=(600, 600))
+        self.main_window = toga.MainWindow(title="Hangman", position=(100, 100), size=(800, 600))
         self.main_window.content = main_box
         self.main_window.show()
         
@@ -48,7 +47,7 @@ class Hangman(toga.App):
 
         if widget.text == "Play Hangman" or widget.text == "Start a New Game":
             self.secret_word = self.get_word() # get a random word
-            print(self.secret_word)
+            #print(self.secret_word)
         
         #initialize variables used for each game
         self.letters = set(self.secret_word)
