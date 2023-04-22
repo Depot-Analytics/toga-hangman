@@ -26,9 +26,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="togablogpost/src/togablogpost/hangman_images/victory.PNG" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Toga Hangman Project </h3>
 
@@ -121,6 +118,15 @@ _You can run the app either in development mode or as an actual app._
  briefcase dev
  ```
  * Follow this [tutorial](https://docs.beeware.org/en/latest/tutorial/tutorial-3.html) after cloning the repo in order to package and distribute the app. 
+ 
+ ### Using the App
+ 
+ ![Hangman Play](https://github.com/Depot-Analytics/toga-hangman/blob/main/winning%20hangman.gif)
+ 
+ *Start by either clicking "Play Hangman" or "Start Game with Own Word"
+ *Enter your own secret word for hangman, if that option was selected
+ *Guess random letters by entering them into the keyboard. The lives and used letters list will update accordingly.
+ 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
