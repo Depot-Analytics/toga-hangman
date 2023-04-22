@@ -47,7 +47,7 @@ class Hangman(toga.App):
 
         if widget.text == "Play Hangman" or widget.text == "Start a New Game":
             self.secret_word = self.get_word() # get a random word
-            #print(self.secret_word)
+            print(self.secret_word)
         
         #initialize variables used for each game
         self.letters = set(self.secret_word)
